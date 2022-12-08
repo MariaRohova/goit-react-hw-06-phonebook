@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { addContact } from 'components/redux/contactReduser';
 
 const Form = () => {
-  console.log('Form')
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
